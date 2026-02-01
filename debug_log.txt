@@ -1,0 +1,29 @@
+==================================================
+DEBUG INFO:
+Script dir: c:\Users\andrew.dimond\Documents\GitHub\SableSpecimen
+DB path: c:\Users\andrew.dimond\Documents\GitHub\SableSpecimen\SableSpecimen_DB.accdb
+DB exists: True
+R script path: c:\Users\andrew.dimond\Documents\GitHub\SableSpecimen\Otolith_Entry\lw_plot.R
+R script exists: True
+Rscript exe: c:\Users\andrew.dimond\Documents\GitHub\SableSpecimen\R-portable\bin\Rscript.exe
+Rscript exists: True
+==================================================
+Running R script...
+R script completed successfully
+STDOUT: 
+STDERR: 
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+closing unused RODBC handle 1 
+
+Looking for plot at: c:\Users\andrew.dimond\Documents\GitHub\SableSpecimen\Otolith_Entry\lw_plot.png
+Plot exists: True

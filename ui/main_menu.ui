@@ -6,12 +6,21 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1102</width>
-    <height>681</height>
+    <width>1100</width>
+    <height>680</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#MainWindow {
+    background-image: url(:/bg_imgs/Images/LLsurvey2010_Leg3_otolith removal_DA (1).jpg);
+    background-repeat: no-repeat; /* Prevents the image from tiling */
+    background-position: center; /* Centers the image */
+}
+
+</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="event_button">
@@ -19,8 +28,8 @@
      <rect>
       <x>130</x>
       <y>500</y>
-      <width>251</width>
-      <height>111</height>
+      <width>250</width>
+      <height>110</height>
      </rect>
     </property>
     <property name="font">
@@ -32,50 +41,67 @@
      <string>Enter Event</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="enter_specimen">
+   <widget class="QPushButton" name="enter_otolith">
     <property name="geometry">
      <rect>
-      <x>680</x>
+      <x>400</x>
       <y>500</y>
-      <width>231</width>
-      <height>111</height>
+      <width>250</width>
+      <height>110</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>20</pointsize>
+      <pointsize>22</pointsize>
      </font>
     </property>
     <property name="text">
-     <string>Enter Specimen</string>
+     <string>Enter Otolith</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>-40</y>
-      <width>1131</width>
-      <height>721</height>
+      <x>190</x>
+      <y>120</y>
+      <width>661</width>
+      <height>171</height>
      </rect>
     </property>
-    <property name="styleSheet">
-     <string notr="true">image: url(:/newPrefix/Sablefish.jpg);</string>
+    <property name="font">
+     <font>
+      <pointsize>72</pointsize>
+     </font>
     </property>
     <property name="text">
-     <string/>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#820000;&quot;&gt;Sable Specimen&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <zorder>label</zorder>
-   <zorder>event_button</zorder>
-   <zorder>enter_specimen</zorder>
+   <widget class="QPushButton" name="enter_tag">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>500</y>
+      <width>250</width>
+      <height>110</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Enter Tag</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1102</width>
+     <width>1100</width>
      <height>21</height>
     </rect>
    </property>
@@ -89,7 +115,7 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="2.qrc"/>
+  <include location="backgroundd_images.qrc"/>
  </resources>
  <connections/>
 </ui>

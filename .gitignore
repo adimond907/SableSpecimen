@@ -1,0 +1,5 @@
+R-portable
+__pycache__/
+*.pyc
+*.pyo
+ui/backgroundd_images_rc.py

@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="bg_imgs">
+    <file>Images/20220824_152100.jpg</file>
+    <file>Images/LLsurvey2010_Leg3_otolith removal_DA (1).jpg</file>
+    <file>Images/LLsurvey2010_Leg3_otolith removal_DA (11).jpg</file>
+    <file>Images/P5310017.JPG</file>
+    <file>Images/P8230007.JPG</file>
+    <file>Images/Sablefish.jpg</file>
+  </qresource>
+</RCC>
